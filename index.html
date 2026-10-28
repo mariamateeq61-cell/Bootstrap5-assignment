@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">GymHolic</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navigation"
+        aria-controls="navigation"
+        aria-expanded="false"
+        aria-label="Open navigation menu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main banner -->
+  <header class="hero" id="home">
+    <div class="container">
+      <h1>BUILD YOUR <span>BEST SELF</span></h1>
+      <p>
+        Train at your own pace, learn from supportive coaches, and make
+        healthy habits part of your everyday life.
+      </p>
+      <a class="main-button" href="#classes">Explore Our Classes</a>
+    </div>
+  </header>
+
+  <!-- Classes section -->
+  <section class="section-padding" id="classes">
+    <div class="container">
+      <h2 class="section-title">Our Fitness Classes</h2>
+      <p class="section-description">
+        Choose a class that matches your goals. Our friendly instructors
+        welcome beginners and experienced members.
+      </p>
+
+      <!-- Bootstrap 5 grid: cards stack on small screens and form columns on wider screens -->
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="class-card">
+            <div class="class-icon">🏋️</div>
+            <h3>Strength Training</h3>
+            <p>Build strength and learn how to use gym equipment safely.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="class-card">
+            <div class="class-icon">🧘</div>
+            <h3>Yoga</h3>
+            <p>Improve flexibility, balance, and relaxation in a welcoming class.</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="class-card">
+            <div class="class-icon">🚴</div>
+            <h3>Indoor Cycling</h3>
+            <p>Enjoy an energetic cycling workout with music and an instructor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section class="about-section section-padding" id="about">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-6">
+          <img
+            class="about-image"
+            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=80"
+            alt="People exercising in a gym"
+          >
+        </div>
+
+        <div class="col-12 col-lg-6 about-text">
+          <h2>A Gym for Every Fitness Level</h2>
+          <p>
+            FitZone is a friendly community gym where everyone can work
+            towards their own fitness goals. Our trainers can help you get
+            started and make a plan that works for you.
+          </p>
+          <p>
+            We offer group classes, strength equipment, and a clean,
+            comfortable place to exercise.
+          </p>
+          <a class="main-button" href="#contact">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact-section section-padding" id="contact">
+    <div class="container">
+      <h2 class="section-title">Ready to Get Started?</h2>
+      <p class="section-description">
+        Visit us at 25 Main Street or call (555) 123-4567 to learn more.
+      </p>
+      <a class="main-button" href="mailto:hello@fitzone.example">Contact the Gym</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 GymHolic. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap 5 JavaScript for the mobile navigation menu -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

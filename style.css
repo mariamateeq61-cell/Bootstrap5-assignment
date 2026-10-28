@@ -1,0 +1,179 @@
+  /* Basic page styles */
+    body {
+      font-family: Arial, sans-serif;
+      color: #222;
+    }
+
+    /* Navigation */
+    .navbar {
+      background-color: #151515;
+    }
+
+    .navbar-brand {
+      color: #f9b000;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .navbar-brand:hover,
+    .navbar .nav-link:hover {
+      color: #f9b000;
+    }
+
+    .navbar .nav-link {
+      color: white;
+    }
+
+    /* Main banner */
+    .hero {
+      min-height: 520px;
+      color: white;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80")
+        center / cover;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 56px;
+      font-weight: bold;
+    }
+
+    .hero h1 span {
+      color: #f9b000;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin: 20px auto;
+      max-width: 650px;
+    }
+
+    .main-button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #f9b000;
+      color: #151515;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .main-button:hover {
+      background-color: white;
+      color: #151515;
+    }
+    .class-card:hover {
+      color: #f9b000;
+      background-color: rgb(117, 114, 114);
+      
+    }
+
+    /* Shared section styles */
+    .section-padding {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      margin-bottom: 15px;
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .section-description {
+      margin: 0 auto 40px;
+      max-width: 650px;
+      color: #666;
+      text-align: center;
+    }
+
+    /* Class cards */
+    .class-card {
+      height: 100%;
+      padding: 25px;
+      background-color: #f4f4f4;
+      border-bottom: 4px solid #f9b000;
+      text-align: center;
+    }
+
+    .class-card h3 {
+      margin: 15px 0 10px;
+      font-size: 22px;
+    }
+
+    .class-icon {
+      font-size: 40px;
+    }
+
+    /* About section */
+    .about-section {
+      background-color: #f4f4f4;
+    }
+
+    .about-image {
+      width: 100%;
+      min-height: 300px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .about-text h2 {
+      font-size: 34px;
+      font-weight: bold;
+    }
+
+    .about-text p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* Contact section */
+    .contact-section {
+      background-color: #151515;
+      color: white;
+      text-align: center;
+    }
+
+    .contact-section .section-description {
+      color: #ddd;
+    }
+
+    /* Footer */
+    footer {
+      padding: 18px;
+      background-color: #080808;
+      color: #ccc;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    /* Small screen adjustments */
+    @media (max-width: 576px) {
+      .hero {
+        min-height: 430px;
+      }
+
+      .hero h1 {
+        font-size: 38px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .section-padding {
+        padding: 50px 0;
+      }
+
+      .section-title {
+        font-size: 29px;
+      }
+    }
+  </style>
